@@ -1,0 +1,59 @@
+
+<!DOCTYPE html><html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-69b86328-4347-4250-9514-ab413ded4a4f@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deus faz curas e milagres através de Jesus Cristo | Autor: João Paulo Artilheiro do Amor</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Deus faz curas e milagres através de Jesus Cristo</h1>
+    <h2>Autor do Projeto: João Paulo Artilheiro do Amor</h2>
+    <p class="pix-link">Doe com Pix para ajudar pessoas em situação de abandono</p>
+  </header>
+
+  <div class="content">
+    <h3>🌟 Homenagem Maior a Deus Pai e ao Senhor e Salvador Jesus Cristo</h3>
+    <p>Que todo joelho se dobre e toda língua confesse que Jesus Cristo é o Senhor!</p>
+
+    <h3>🧒👧 Em homenagem às crianças carentes do Brasil</h3>
+    <p>Valorizamos cada criança como um presente de Deus. Que a sociedade se volte para a inclusão social delas e de suas famílias.</p>
+
+    <div class="video-container">
+      <iframe src="cid:frame-FFFEBA94C14BDF08E423E5CBBEEB13DD@mhtml.blink" allowfullscreen=""></iframe>
+    </div>
+
+    <p>✨ <strong>When We Were Kings</strong> – Quando Éramos Reis</p>
+
+    <h3>🥊 Homenagem a Muhammad Ali e George Foreman</h3>
+    <p>Thank you, Muhammad Ali and George Foreman, for the greatness you brought to the world of sports. Obrigado por tudo que representaram!</p>
+
+    <h3>🏠 Família de Muhammad Ali</h3>
+    <p><strong>Pai:</strong> Cassius Marcellus Clay Sr. | <strong>Mãe:</strong> Odessa Grady Clay</p>
+    <p><strong>Irmão:</strong> Rahman Ali</p>
+    <p><strong>Esposas:</strong> Sonji Roi, Belinda Boyd (Khalilah), Veronica Porsche, Yolanda Williams</p>
+    <p><strong>Filhos:</strong> Laila Ali, Muhammad Ali Jr., entre outros</p>
+
+    <div class="links">
+      <p>Entre em contato:</p>
+      <a href="mailto:seu-email@example.com">E-mail</a>
+      <a href="https://wa.me/5581986573209">WhatsApp</a>
+      <a href="https://www.facebook.com/seu-perfil">Facebook</a>
+      <a href="https://www.instagram.com/seu-perfil">Instagram</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Homenagem feita por João Paulo, o artilheiro do amor.</p>
+    <p>Com amor e respeito eterno a George Foreman e Muhammad Ali.</p>
+  </footer>
+
+  <!-- Modal Pix -->
+  <div id="pixModal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <h3>Chave Pix para Doações:</h3>
+      <p id="pixKey">(81)986573209</p>
+      <button class="copy-button">Copiar Chave Pix</button>
+    </div>
+  </div>
