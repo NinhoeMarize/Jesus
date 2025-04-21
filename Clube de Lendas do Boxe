@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deus faz curas e milagres através de Jesus Cristo | Autor: João Paulo Artilheiro do Amor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      border-radius: 12px;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    h2 {
+      margin: 10px 0 0;
+      font-size: 1.5em;
+    }
+    .content {
+      padding: 20px;
+    }
+    .video-container {
+      margin: 20px auto;
+      max-width: 80%;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+    footer {
+      background: #111;
+      padding: 10px;
+      position: relative;
+      width: 100%;
+      border-radius: 12px;
+    }
+    .links {
+      margin: 20px 0;
+    }
+    .links a {
+      color: #00f;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    .pix-link {
+      color: #0af;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.8);
+    }
+    .modal-content {
+      background-color: #222;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 12px;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover {
+      color: #fff;
+    }
+    .copy-button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .copy-button:hover {
+      background-color: #0057e7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deus faz curas e milagres através de Jesus Cristo</h1>
+    <h2>Autor do Projeto: João Paulo Artilheiro do Amor</h2>
+    <p class="pix-link" onclick="openPixModal()">Doe com Pix para ajudar pessoas em situação de abandono</p>
+  </header>
+
+  <div class="content">
+    <h3>🌟 Homenagem Maior a Deus Pai e ao Senhor e Salvador Jesus Cristo</h3>
+    <p>Que todo joelho se dobre e toda língua confesse que Jesus Cristo é o Senhor!</p>
+
+    <h3>🧒👧 Em homenagem às crianças carentes do Brasil</h3>
+    <p>Valorizamos cada criança como um presente de Deus. Que a sociedade se volte para a inclusão social delas e de suas famílias.</p>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/svhnasgxpqs" allowfullscreen></iframe>
+    </div>
+
+    <p>✨ <strong>When We Were Kings</strong> – Quando Éramos Reis</p>
+
+    <h3>🥊 Homenagem a Muhammad Ali e George Foreman</h3>
+    <p>Thank you, Muhammad Ali and George Foreman, for the greatness you brought to the world of sports. Obrigado por tudo que representaram!</p>
+
+    <h3>🏠 Família de Muhammad Ali</h3>
+    <p><strong>Pai:</strong> Cassius Marcellus Clay Sr. | <strong>Mãe:</strong> Odessa Grady Clay</p>
+    <p><strong>Irmão:</strong> Rahman Ali</p>
+    <p><strong>Esposas:</strong> Sonji Roi, Belinda Boyd (Khalilah), Veronica Porsche, Yolanda Williams</p>
+    <p><strong>Filhos:</strong> Laila Ali, Muhammad Ali Jr., entre outros</p>
+
+    <div class="links">
+      <p>Entre em contato:</p>
+      <a href="mailto:seu-email@example.com">E-mail</a>
+      <a href="https://wa.me/5581986573209">WhatsApp</a>
+      <a href="https://www.facebook.com/seu-perfil">Facebook</a>
+      <a href="https://www.instagram.com/seu-perfil">Instagram</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Homenagem feita por João Paulo, o artilheiro do amor.</p>
+    <p>Com amor e respeito eterno a George Foreman e Muhammad Ali.</p>
+  </footer>
+
+  <!-- Modal Pix -->
+  <div id="pixModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closePixModal()">&times;</span>
+      <h3>Chave Pix para Doações:</h3>
+      <p id="pixKey">(81)986573209</p>
+      <button class="copy-button" onclick="copyPixKey()">Copiar Chave Pix</button>
+    </div>
+  </div>
+
+  <script>
+    function openPixModal() {
+      document.getElementById("pixModal").style.display = "block";
+    }
+
+    function closePixModal() {
+      document.getElementById("pixModal").style.display = "none";
+    }
+
+    function copyPixKey() {
+      const pixKey = document.getElementById("pixKey").textContent;
+      navigator.clipboard.writeText(pixKey).then(() => {
+        alert("Chave Pix copiada: " + pixKey);
+      });
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById("pixModal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
