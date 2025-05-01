@@ -1,0 +1,22 @@
+# 📚 Sistema de Biblioteca
+
+Este repositório contém a modelagem e criação de um banco de dados relacional para controle de empréstimos de livros em uma biblioteca.
+
+## 🔧 Estrutura do Banco
+
+Tabelas criadas:
+- **Usuarios**: guarda informações dos leitores.
+- **Funcionarios**: quem realiza os empréstimos.
+- **Livros**: acervo disponível.
+- **Emprestimos**: registros dos empréstimos realizados.
+- **Emprestimo_Livros**: associação entre empréstimos e livros.
+
+## 📂 Como usar
+
+1. Clone este repositório.
+2. Importe o script `banco_biblioteca.sql` em um SGBD como MySQL.
+3. Execute para criar as tabelas e registros.
+
+## 👨‍💻 Autor
+
+João Paulo Chaar Avila
